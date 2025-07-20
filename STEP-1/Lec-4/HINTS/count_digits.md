@@ -45,3 +45,5 @@ FUNCTION countDigit_2(n):
 #### 💡 Explanation
 - Uses the formula: **Number of digits in n = ⌊log₁₀(n) + 1⌋**
 - Avoids looping, much faster for large numbers.
+
+---

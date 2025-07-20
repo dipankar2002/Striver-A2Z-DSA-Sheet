@@ -43,9 +43,11 @@ FUNCTION reverseNumber_2(n):
     RETURN rev
 ```
 #### Complexity:
-- Time - **log₁₀ n** (each step reduces n by a digit)
+- Time - **O(log₁₀ n)** (each step reduces n by a digit)
 - Space - **O(1)**
 #### 💡 Explanation
 - Extract the last digit using % 10.
 - Build the reversed number by shifting digits left (multiplying rev by 10).
 - This is memory-efficient and fast.
+
+---
