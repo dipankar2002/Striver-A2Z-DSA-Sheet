@@ -41,3 +41,7 @@ FUNCTION isArmstrong_1(n):
 - At the end, if sum === original number, it's an Armstrong number.
 
 ---
+
+#### ⚠️ Notes
+- Armstrong numbers are rare and are typically used for number theory-based problems or puzzles.
+- This code works for any number of digits, not just 3-digit numbers.

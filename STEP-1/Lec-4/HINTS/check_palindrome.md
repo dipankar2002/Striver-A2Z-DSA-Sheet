@@ -58,3 +58,10 @@ FUNCTION isPalindrome_2(n):
 - Compares the reversed number with the original to check for palindrome.
 
 ---
+
+#### ⚠️ Notes
+- These approaches assume n >= 0.
+- For n < 0, you can directly return false since negative numbers aren't palindromes.
+```plaintext
+if (n < 0) return false;
+```

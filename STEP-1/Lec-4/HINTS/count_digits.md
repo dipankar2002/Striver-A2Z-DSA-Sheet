@@ -47,3 +47,10 @@ FUNCTION countDigit_2(n):
 - Avoids looping, much faster for large numbers.
 
 ---
+
+#### ⚠️ Notes
+- For n = 0, both methods need to handle it separately.
+```plaintext
+if n == 0:
+    return 1  // Because '0' has 1 digit
+```

@@ -51,3 +51,7 @@ FUNCTION reverseNumber_2(n):
 - This is memory-efficient and fast.
 
 ---
+
+#### ⚠️ Notes
+- If you want to preserve the result as a number, use the optimal approach.
+- For handling negative numbers or trailing zeros, extra handling is required.
