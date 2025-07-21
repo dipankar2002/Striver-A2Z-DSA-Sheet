@@ -8,9 +8,7 @@ function func(_name,count) {
   console.log(_name)
   func(_name, count + 1);
 }
-function main() {
-  const _name = "Gokuuuuu";
-  const count = 1;
-  func(_name,count);
-}
-main();
+
+const _name = "Gokuuuuu";
+const count = 1;
+func(_name,count);
