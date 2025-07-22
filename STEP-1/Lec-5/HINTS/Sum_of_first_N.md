@@ -32,6 +32,20 @@ FUNCTION NnumbersSum_1(i, sum):
 
 ---
 
+## Recursion Tree (Parameterised)
+Let's trace `fn(3, 0)`:
+```plaintext
+fn(3, 0)
+  |
+  +-- fn(2, 3)
+      |
+      +-- fn(1, 5)
+          |
+          +-- fn(0, 6)  // prints 6 and returns
+```
+
+---
+
 ## 📌 Functional Recursive Approach (Return-Based)
 
 ### ✅ Pseudo Code
@@ -47,6 +61,23 @@ FUNCTION NnumbersSum_2(n):
 #### 💡 Explanation
 - Builds the result using return values.
 - Recursively reduces n and adds it to the result returned by the smaller problem.
+
+---
+
+## Recursion Tree (Functional)
+Let's trace `fn(3)`:
+```plaintext
+fn(3)
+  |
+  +-- 3 + fn(2)
+      |
+      +-- 2 + fn(1)
+          |
+          +-- 1 + fn(0)
+              |
+              +-- 0  // Base case
+```
+The calls return and sum up: `0 + 1 + 2 + 3 = 6`.
 
 ---
 

@@ -37,3 +37,16 @@ FUNCTION palindromeCheck_1(s, start):
 - Base case: when start crosses or reaches middle → return true.
 
 ---
+
+## Recursion Tree
+Let's take an example of the string "madam"
+```plaintext
+fn("madam", 0)
+          |
+fn("madam", 1)
+          |
+fn("madam", 2)
+          |
+fn("madam", 3)  // returns true as 3 >= 2.5
+```
+---

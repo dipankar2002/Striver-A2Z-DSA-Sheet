@@ -50,6 +50,22 @@ FUNCTION factorial_2(n):
 
 ---
 
+## Recursion Tree
+Let's trace `fn(4)`:
+```plaintext
+fn(4)
+  |
+  +-- 4 * fn(3)
+      |
+      +-- 3 * fn(2)
+          |
+          +-- 2 * fn(1)
+              |
+              +-- 1  // Base case
+```
+The calls return and multiply: `1 * 2 * 3 * 4 = 24`.
+---
+
 #### ⚠️ Notes
 - Factorial is a classic example to understand recursion.
 - Iterative version is more memory-efficient.

@@ -35,6 +35,20 @@ FUNCTION reverse_1(arr, start, end):
 
 ---
 
+## Recursion Tree (Two-pointer)
+
+Let's trace `fn([1, 2, 3, 4, 5], 0, 4)`:
+```plaintext
+fn([1, 2, 3, 4, 5], 0, 4)
+  SWAP(1, 5) -> [5, 2, 3, 4, 1]
+  |
+  +-- fn([5, 2, 3, 4, 1], 1, 3)
+      SWAP(2, 4) -> [5, 4, 3, 2, 1]
+      |
+      +-- fn([5, 4, 3, 2, 1], 2, 2)  // Base case: start >= end, returns
+```
+---
+
 ## 📌 Optimized Single-pointer Recursive Approach
 
 ### ✅ Pseudo Code
@@ -54,4 +68,18 @@ FUNCTION reverse_2(arr, start):
 - Stops recursion when start === arr.length - start - 1, meaning the middle is reached.
 - More optimal in terms of parameter usage.
 
+---
+
+## Recursion Tree (Single-pointer)
+
+Let's trace `fn([1, 2, 3, 4, 5], 0)`:
+```plaintext
+fn([1, 2, 3, 4, 5], 0)
+  SWAP(1, 5) -> [5, 2, 3, 4, 1]
+  |
+  +-- fn([5, 2, 3, 4, 1], 1)
+      SWAP(2, 4) -> [5, 4, 3, 2, 1]
+      |
+      +-- fn([5, 4, 3, 2, 1], 2)  // Base case: 2 >= 5-2-1, returns
+```
 ---

@@ -32,6 +32,21 @@ FUNCTION printNumbers_1(i, n):
 
 ---
 
+## Recursion Tree
+Let's trace `fn(1, 4)`:
+```plaintext
+fn(1, 4)  // prints 1
+  |
+  +-- fn(2, 4)  // prints 2
+      |
+      +-- fn(3, 4)  // prints 3
+          |
+          +-- fn(4, 4)  // prints 4
+              |
+              +-- fn(5, 4)  // returns
+```
+---
+
 ## 🔁 Backtracking Recursive Approach
 
 ### ✅ Pseudo Code
@@ -48,6 +63,26 @@ FUNCTION printNumbers_2(i, n):
 #### 💡 Explanation
 - Starts from **n**, recursively goes down to **1**, and prints while returning (backtracking).
 - Useful when logic needs to be executed in reverse during the return path.
+
+---
+
+## Recursion Tree (Backtracking)
+Let's trace `fn(4, 4)`:
+```plaintext
+fn(4, 4)
+  |
+  +-- fn(3, 4)
+      |
+      +-- fn(2, 4)
+          |
+          +-- fn(1, 4)
+              |
+              +-- fn(0, 4)  // Base case: i < 1, returns
+            (prints 1)
+          (prints 2)
+      (prints 3)
+  (prints 4)
+```
 
 ---
 

@@ -31,6 +31,19 @@ FUNCTION fn(name, count):
 
 ---
 
+## Recursion Tree
+Let's trace `fn("Alice", 1)` with N=3:
+```plaintext
+fn("Alice", 1)  // prints "Alice"
+  |
+  +-- fn("Alice", 2)  // prints "Alice"
+      |
+      +-- fn("Alice", 3)  // prints "Alice"
+          |
+          +-- fn("Alice", 4)  // returns
+```
+---
+
 #### ⚠️ Notes
 - This is a classic base-case + recursive-call structure.
 - Make sure to have a termination condition to avoid infinite recursion.
