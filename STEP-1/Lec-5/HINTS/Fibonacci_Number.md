@@ -64,6 +64,18 @@ FUNCTION fibonacci_2(n):
 
 ---
 
+## Recursion Tree
+```plaintext
+                   fn(4)                             3
+                  /     \                          /   \
+              fn(3)      fn(2)                    2     1
+             /   \      /    \                   / \   / \
+         fn(2)  fn(1)  fn(1)  fn(0)             1   1 1   0
+        /    \                                 / \
+    fn(1)  fn(0)                              1   0
+```
+---
+
 #### ⚠️ Notes
 - In the iterative approach, the function doesn't return the full series, just the last a before b crosses n.
 - In the recursive approach, it returns the value at the exact n index.
