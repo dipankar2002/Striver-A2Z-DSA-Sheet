@@ -31,7 +31,7 @@ function selectionSort(nums) {
   for (let i = 0; i < n - 1; i++) {
     for (let k = i; k < n; k++) {
       if (nums[i] > nums[k]) {
-        [nums[i], nums[k]] = [nums[k], nums[i]];
+        [ nums[i], nums[k] ] = [ nums[k], nums[i] ];
       }
     }
   }

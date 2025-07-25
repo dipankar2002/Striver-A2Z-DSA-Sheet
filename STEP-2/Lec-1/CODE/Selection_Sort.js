@@ -12,7 +12,7 @@ function selectionSort(nums) {
       // Then swap them to bring the smaller element to position i
       if (nums[i] > nums[k]) {
         // Swapping using array destructuring
-        [nums[i], nums[k]] = [nums[k], nums[i]];
+        [ nums[i], nums[k] ] = [ nums[k], nums[i] ];
       }
     }
   }
