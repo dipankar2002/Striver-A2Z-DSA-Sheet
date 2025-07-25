@@ -23,7 +23,7 @@ Write a program to compute the **Nth term** in the **Fibonacci Series** using:
 ## 🔁 Iterative Approach
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION fibonacci_1(n):
     a ← 0
     b ← 1
@@ -47,7 +47,7 @@ FUNCTION fibonacci_1(n):
 ## 📌 Recursive Approach (Multiple Calls)
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION fibonacci_2(n):
     IF n <= 1:
         RETURN n
@@ -65,7 +65,7 @@ FUNCTION fibonacci_2(n):
 ---
 
 ## Recursion Tree
-```plaintext
+```js
                    fn(4)                             3
                   /     \                          /   \
               fn(3)      fn(2)                    2     1

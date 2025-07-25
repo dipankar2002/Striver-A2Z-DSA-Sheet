@@ -14,7 +14,7 @@ Given a positive integer `n`, return the number obtained by reversing its digits
 ## 🔁 Brute Force Approach (Using String Manipulation)
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION reverseNumber_1(n):
     SET rev = convert n to string
     SET rev = reverse the string
@@ -33,7 +33,7 @@ FUNCTION reverseNumber_1(n):
 ## 📐 Optimal Approach (Using Modulo and Arithmetic)
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION reverseNumber_2(n):
     SET rev = 0
     WHILE n > 0:

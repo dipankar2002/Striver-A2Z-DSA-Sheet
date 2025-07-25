@@ -15,7 +15,7 @@ Given two positive integers `n1` and `n2`, find their **Greatest Common Divisor 
 ## 🐢 Brute Force Approach (Check All Up To min(n1, n2))
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION GCD_1(n1, n2):
     SET gcd = 1
     FOR i FROM 1 TO min(n1, n2):
@@ -35,7 +35,7 @@ FUNCTION GCD_1(n1, n2):
 ## 🧠 Better Approach (Start From min(n1, n2) and Return First Match)
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION GCD_2(n1, n2):
     FOR i FROM min(n1, n2) DOWN TO 1:
         IF n1 MOD i == 0 AND n2 MOD i == 0:
@@ -54,7 +54,7 @@ FUNCTION GCD_2(n1, n2):
 ## ⚡ Optimal Approach (Euclidean Algorithm)
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION GCD_3(n1, n2):
     WHILE n1 > 0 AND n2 > 0:
         IF n1 > n2:

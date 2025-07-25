@@ -16,7 +16,7 @@ Given a number `n`, print all numbers from **n to 1** using recursion.
 ## 🔁 Normal Recursive Approach
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION printNumbers_1(i, n):
     IF i > n:
         RETURN
@@ -34,7 +34,7 @@ FUNCTION printNumbers_1(i, n):
 
 ## Recursion Tree
 Let's trace `fn(1, 4)`:
-```plaintext
+```js
 fn(1, 4)  // prints 4
   |
   +-- fn(1, 3)  // prints 3
@@ -50,7 +50,7 @@ fn(1, 4)  // prints 4
 ## 🔁 Backtracking Recursive Approach
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION printNumbers_2(i, n):
     IF i > n:
         RETURN
@@ -68,7 +68,7 @@ FUNCTION printNumbers_2(i, n):
 
 ## Recursion Tree (Backtracking)
 Let's trace `fn(1, 4)`:
-```plaintext
+```js
 fn(1, 4)
   |
   +-- fn(2, 4)

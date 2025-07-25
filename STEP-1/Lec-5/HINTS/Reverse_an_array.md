@@ -18,7 +18,7 @@ The idea is to **swap elements** from start to end moving inward until:
 ## 📌 Two-pointer Recursive Approach
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION reverse_1(arr, start, end):
     IF start >= end:
         RETURN
@@ -38,7 +38,7 @@ FUNCTION reverse_1(arr, start, end):
 ## Recursion Tree (Two-pointer)
 
 Let's trace `fn([1, 2, 3, 4, 5], 0, 4)`:
-```plaintext
+```js
 fn([1, 2, 3, 4, 5], 0, 4)
   SWAP(1, 5) -> [5, 2, 3, 4, 1]
   |
@@ -52,7 +52,7 @@ fn([1, 2, 3, 4, 5], 0, 4)
 ## 📌 Optimized Single-pointer Recursive Approach
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION reverse_2(arr, start):
     IF start >= arr.length - start - 1:
         RETURN
@@ -73,7 +73,7 @@ FUNCTION reverse_2(arr, start):
 ## Recursion Tree (Single-pointer)
 
 Let's trace `fn([1, 2, 3, 4, 5], 0)`:
-```plaintext
+```js
 fn([1, 2, 3, 4, 5], 0)
   SWAP(1, 5) -> [5, 2, 3, 4, 1]
   |

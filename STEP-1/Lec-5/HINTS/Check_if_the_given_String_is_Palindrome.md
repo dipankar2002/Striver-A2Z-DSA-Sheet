@@ -20,7 +20,7 @@ Given a string `s`, check whether the string is a **palindrome** using recursion
 ## 📌 Optimal Recursive Approach
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION palindromeCheck_1(s, start):
     IF start >= s.length / 2:
         RETURN true
@@ -40,7 +40,7 @@ FUNCTION palindromeCheck_1(s, start):
 
 ## Recursion Tree
 Let's take an example of the string "madam"
-```plaintext
+```js
 fn("madam", 0)
           |
 fn("madam", 1)

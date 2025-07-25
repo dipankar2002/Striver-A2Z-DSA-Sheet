@@ -14,7 +14,7 @@ Given a number `n`, find the **factorial** of the number using:
 ## 📌 Iterative Approach
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION factorial_1(n):
     SET factorial = 1
     FOR i FROM 1 TO n:
@@ -33,7 +33,7 @@ FUNCTION factorial_1(n):
 ## 📌 Recursive Approach
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION factorial_2(n):
     IF n == 0:
         RETURN 1
@@ -52,7 +52,7 @@ FUNCTION factorial_2(n):
 
 ## Recursion Tree
 Let's trace `fn(4)`:
-```plaintext
+```js
 fn(4)
   |
   +-- 4 * fn(3)

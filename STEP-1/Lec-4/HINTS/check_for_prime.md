@@ -15,7 +15,7 @@ A prime number is a number greater than 1 that has no divisors other than 1 and 
 ## 🔁 Brute Force Approach (Using Loop)
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION isPrime_1(n):
     IF n <= 1:
         RETURN false
@@ -36,7 +36,7 @@ FUNCTION isPrime_1(n):
 ## 📐 Optimal Approach (Using Logarithm)
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION isPrime_2(n):
     IF n <= 1:
         RETURN false

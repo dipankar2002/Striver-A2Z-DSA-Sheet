@@ -15,7 +15,7 @@ A divisor is a number that divides `n` exactly without leaving a remainder.
 ## 🔁 Brute Force Approach (Using Loop)
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION divisors_1(n):
     SET divisors = empty list
     FOR i FROM 1 TO n:
@@ -36,7 +36,7 @@ FUNCTION divisors_1(n):
 ## 📐 Optimal Approach (Using Logarithm)
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION divisors_2(n):
     SET divisors = empty list
     FOR i FROM 1 TO √n:

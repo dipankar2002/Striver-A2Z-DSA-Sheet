@@ -16,7 +16,7 @@ Given a positive integer `n`, check whether it is an **Armstrong Number**.
 ## ⚡ Optimal Approach (Using Math.pow)
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION isArmstrong_1(n):
     SET k = number of digits in n
     SET sum = 0

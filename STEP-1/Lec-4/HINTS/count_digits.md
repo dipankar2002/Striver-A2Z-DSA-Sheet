@@ -14,7 +14,7 @@ Also, the number of digits in a number `n` can be found using `⌊log₁₀(n) +
 ## 🔁 Brute Force Approach (Using Loop)
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION countDigit_1(n):
     SET c = 0
     WHILE n > 0:
@@ -35,7 +35,7 @@ FUNCTION countDigit_1(n):
 ## 📐 Optimal Approach (Using Logarithm)
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION countDigit_2(n):
     RETURN floor(log10(n) + 1)
 ```
@@ -50,7 +50,7 @@ FUNCTION countDigit_2(n):
 
 #### ⚠️ Notes
 - For n = 0, both methods need to handle it separately.
-```plaintext
+```js
 if n == 0:
     return 1  // Because '0' has 1 digit
 ```

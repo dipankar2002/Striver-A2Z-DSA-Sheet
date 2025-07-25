@@ -15,7 +15,7 @@ Given a number `n`, find the **sum of the first N natural numbers** using recurs
 ## 📌 Parameterised Recursive Approach (Tail Recursion)
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION NnumbersSum_1(i, sum):
     IF i < 1:
         PRINT sum
@@ -34,7 +34,7 @@ FUNCTION NnumbersSum_1(i, sum):
 
 ## Recursion Tree (Parameterised)
 Let's trace `fn(3, 0)`:
-```plaintext
+```js
 fn(3, 0)
   |
   +-- fn(2, 3)
@@ -49,7 +49,7 @@ fn(3, 0)
 ## 📌 Functional Recursive Approach (Return-Based)
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION NnumbersSum_2(n):
     IF n < 1:
         RETURN 0
@@ -66,7 +66,7 @@ FUNCTION NnumbersSum_2(n):
 
 ## Recursion Tree (Functional)
 Let's trace `fn(3)`:
-```plaintext
+```js
 fn(3)
   |
   +-- 3 + fn(2)

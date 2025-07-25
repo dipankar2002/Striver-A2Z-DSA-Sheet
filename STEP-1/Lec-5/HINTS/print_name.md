@@ -13,7 +13,7 @@ Given a name and a number `n`, print the name exactly `n` times using recursion.
 ## ⚡ Recursive Approach
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION fn(name, count):
     Initialize N
     IF count > N:
@@ -33,7 +33,7 @@ FUNCTION fn(name, count):
 
 ## Recursion Tree
 Let's trace `fn("Alice", 1)` with N=3:
-```plaintext
+```js
 fn("Alice", 1)  // prints "Alice"
   |
   +-- fn("Alice", 2)  // prints "Alice"

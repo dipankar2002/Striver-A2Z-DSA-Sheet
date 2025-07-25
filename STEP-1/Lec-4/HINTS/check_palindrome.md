@@ -15,7 +15,7 @@ A number is a palindrome if it reads the same forward and backward.
 ## 🔁 Brute Force Approach (Using String)
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION isPalindrome_1(n):
     SET str = convert n to string
     SET rev = reverse of str
@@ -37,7 +37,7 @@ FUNCTION isPalindrome_1(n):
 ## 📐 Optimal Approach (Using Arithmetic)
 
 ### ✅ Pseudo Code
-```plaintext
+```js
 FUNCTION isPalindrome_2(n):
     SET original = n
     SET rev = 0
@@ -62,6 +62,6 @@ FUNCTION isPalindrome_2(n):
 #### ⚠️ Notes
 - These approaches assume n >= 0.
 - For n < 0, you can directly return false since negative numbers aren't palindromes.
-```plaintext
+```js
 if (n < 0) return false;
 ```
