@@ -39,7 +39,7 @@ function selectionSort(nums) {
 }
 ```
 #### Complexity:
-- Time - **O(n²)**
+- Time - **O(n²)** for all cases [ **Best**, **Average**, **Worst** ]
 - Space - **O(n)**
 
 > - No extra space is used — sorting is done in-place.
