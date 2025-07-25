@@ -40,7 +40,7 @@ FUNCTION countFrequencies_1(arr):
 
 ---
 
-## 📐 Optimal Approach (Using Logarithm)
+## 📐 Optimal Approach (Using Hash Map / Object)
 
 ### ✅ Pseudo Code
 ```js
@@ -52,8 +52,8 @@ FUNCTION countFrequencies_2(arr):
         PRINT key, map[key]
 ```
 #### Complexity:
-- Time - **O(n)** Direct calculation using logarithm.
-- Space - **O(n)** where n is the number of divisors
+- Time - **O(n)**
+- Space - **O(n)**
 #### 💡 Explanation
 - Store frequency count using a key-value pair in the map.
 - Much faster and cleaner, especially for large arrays.
