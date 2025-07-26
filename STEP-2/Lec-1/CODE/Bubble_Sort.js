@@ -31,7 +31,7 @@ function bubbleSort_2(nums) {
     for (let k = 0; k < i; k++) {
       if (nums[k] > nums[k + 1]) {
         // Swapping using array destructuring 
-        [nums[k], nums[k + 1]] = [nums[k + 1], nums[k]];
+        [ nums[k], nums[k + 1] ] = [ nums[k + 1], nums[k] ];
         didSwap = 1; // Mark that we did a swap
       }
     }
