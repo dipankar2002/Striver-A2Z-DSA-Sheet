@@ -38,7 +38,6 @@ function insertionSort(nums) {
   }
   return nums;
 }
-
 ```
 #### Complexity:
 - Time - **O(n)** for [ **Best** ], **O(n²)** for [ **Average**, **Worst** ] cases
