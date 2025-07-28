@@ -3,7 +3,7 @@
 
 // This is with 1 extra parameter(end) Recursive Approach
 function reverse_1(arr,start,end) {
-  if(start === end) return;
+  if(start >= end) return;
   let temp = arr[start];
   arr[start] = arr[end];
   arr[end] = temp;
@@ -12,7 +12,7 @@ function reverse_1(arr,start,end) {
 
 // This is Optimal Recursive Approach
 function reverse_2(arr,start) {
-  if(start === arr.length-start-1) return;
+  if(start >= arr.length-start-1) return;
   let temp = arr[start];
   arr[start] = arr[arr.length-start-1];
   arr[arr.length-start-1] = temp;
