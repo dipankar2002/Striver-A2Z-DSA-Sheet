@@ -26,10 +26,10 @@ function moveZeroes_1(nums) {
 // Optimal Approach
 function moveZeroes_2(nums) {
   let i = 0;
-    for(let k = 0; k < nums.length; k++) {
-      if(nums[k] !== 0) {
-        [nums[i], nums[k]] = [nums[k], nums[i]];
-        i++;
-      }
+  for(let k = 0; k < nums.length; k++) {
+    if(nums[k] !== 0) {
+      [nums[i], nums[k]] = [nums[k], nums[i]];
+      i++;
     }
+  }
 }
