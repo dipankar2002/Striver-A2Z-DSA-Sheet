@@ -3,7 +3,7 @@
 ## 🧩 Problem Statement
 Given an array **nums** (which may include positive, negative, and zero values), and a number **K**, return the length of the longest subarray whose elements sum up to exactly **K**.
 
-```
+```markdown
 **Example:**
 - Input: nums = [1, -1, 5, -2, 3], K = 3
 - Output: 4  → Subarray [1, -1, 5, -2]

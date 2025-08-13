@@ -5,7 +5,7 @@ Given an array nums representing a permutation of numbers, rearrange the numbers
 If no such permutation exists (the array is in descending order), rearrange it to the lowest possible order (ascending). <br>
 The replacement must be done in-place with O(1) extra memory.
 
-```
+```markdown
 **Example 1:**
 - Input:  [1, 2, 3]
 - Output: [1, 3, 2]

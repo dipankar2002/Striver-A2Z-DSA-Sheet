@@ -3,7 +3,7 @@
 ## 🧩 Problem Statement
 Given a binary array (only 0s and 1s), find the maximum number of consecutive 1's.
 
-```
+```markdown
 **Example:**
 - Input: [1, 1, 0, 1, 1, 1]
 - Output: 3

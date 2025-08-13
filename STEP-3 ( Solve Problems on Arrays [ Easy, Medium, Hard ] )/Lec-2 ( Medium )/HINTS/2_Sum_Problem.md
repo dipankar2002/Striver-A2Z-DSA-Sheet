@@ -4,7 +4,7 @@
 Given an array **nums** and a target sum **target**, return the indices of the two numbers such that they add up to the target.
 You may assume that each input has exactly one solution, and you may not use the same element twice.
 
-```
+```markdown
 **Example:**
 - Input: nums = [2, 7, 11, 15], target = 9
 - Output: [0, 1]  → Because 2 + 7 = 9

@@ -4,7 +4,7 @@
 Given an array nums, rotate the array to the left by one position.
 That means, move each element one step to the left, and move the first element to the end.
 
-```
+```markdown
 **Example:**
 - Input: [1, 2, 3, 4, 5]
 - Output: [2, 3, 4, 5, 1]

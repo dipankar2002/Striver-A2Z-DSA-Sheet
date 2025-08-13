@@ -4,7 +4,7 @@
 Given two arrays nums1 and nums2, return the union of both arrays.
 The union should contain all distinct elements from both arrays.
 
-```
+```markdown
 **Example:**
 - Input: nums1 = [1, 2, 2, 3], nums2 = [2, 3, 4, 5]
 - Output: [1, 2, 3, 4, 5]

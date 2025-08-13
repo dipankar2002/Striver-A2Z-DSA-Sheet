@@ -4,7 +4,7 @@
 Given an array nums, rearrange it so that positive and negative numbers appear alternately.
 The order of appearance within positives or negatives can be ignored unless specified.
 
-```
+```markdown
 **Example:**
 - Input:  [3, 1, -2, -5, 2, -4]
 - Output: [3, -2, 1, -5, 2, -4]

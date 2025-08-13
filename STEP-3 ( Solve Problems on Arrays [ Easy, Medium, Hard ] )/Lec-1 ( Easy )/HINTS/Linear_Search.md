@@ -4,7 +4,7 @@
 Given an array nums and a target value k, search for the value in the array.
 Return the index of the first occurrence of k if found, otherwise return -1.
 
-```
+```markdown
 **Example:**
 - Input: nums = [4, 2, 7, 1, 3], k = 7
 - Output: 2

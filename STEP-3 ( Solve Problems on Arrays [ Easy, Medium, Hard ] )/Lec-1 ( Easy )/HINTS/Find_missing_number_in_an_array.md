@@ -3,7 +3,7 @@
 ## 🧩 Problem Statement
 Given an array containing **n** distinct numbers from the range **0** to **n**, find the one number that is missing from the array.
 
-```
+```markdown
 **Example:**
 - Input: nums = [3, 0, 1]
 - Output: 2

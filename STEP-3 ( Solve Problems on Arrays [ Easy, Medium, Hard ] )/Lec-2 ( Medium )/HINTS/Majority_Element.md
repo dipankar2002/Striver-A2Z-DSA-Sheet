@@ -4,7 +4,7 @@
 Given an array nums[] of size n, find the element that appears more than ⌊n/2⌋ times.
 Assume that a majority element always exists.
 
-```
+```markdown
 **Example:**
 - Input:  nums = [3, 2, 3]
 - Output: 3

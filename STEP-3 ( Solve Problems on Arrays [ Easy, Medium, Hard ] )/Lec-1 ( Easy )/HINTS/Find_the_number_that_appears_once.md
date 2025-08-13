@@ -5,7 +5,7 @@ You are given a non-empty array of integers, where:
 - Every element appears twice, except for one element, which appears only once.
 - Your task is to find and return that single element.
 
-```
+```markdown
 **Example:**
 - Input: [4, 1, 2, 1, 2]
 - Output: 4

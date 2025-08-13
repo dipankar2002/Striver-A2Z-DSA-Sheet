@@ -3,7 +3,7 @@
 ## 🧩 Problem Statement
 Given an array **nums** of positive integers, and a target sum **K**, find the length of the longest subarray whose sum equals **K**.
 
-```
+```markdown
 **Example:**
 - Input: nums = [1, 2, 3, 1, 1, 1, 1], K = 3
 - Output: 3   → Subarray [1, 1, 1]

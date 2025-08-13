@@ -3,7 +3,7 @@
 ## 🧩 Problem Statement
 Given an array **nums** consisting of only **0s**, **1s**, and **2s**, sort the array in-place such that all **0s** come first, followed by all **1s**, then all **2s**.
 
-```
+```markdown
 **Example:**
 - Input:  nums = [2, 0, 2, 1, 1, 0]
 - Output: [0, 0, 1, 1, 2, 2]

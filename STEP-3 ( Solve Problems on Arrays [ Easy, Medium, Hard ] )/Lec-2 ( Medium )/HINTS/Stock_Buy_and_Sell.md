@@ -6,7 +6,7 @@
 - Return the maximum profit you can achieve.
 - If no profit can be made, return **0**.
 
-```
+```markdown
 **Example:**
 - Input:  nums = [7,1,5,3,6,4]
 - Output: 5
