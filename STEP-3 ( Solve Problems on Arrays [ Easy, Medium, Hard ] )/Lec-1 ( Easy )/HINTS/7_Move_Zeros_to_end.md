@@ -18,7 +18,7 @@ Do it in-place with minimal operations if possible.
 
 ---
 
-## 🐢 Brute Force Approach (Using Temporary Array)
+## 🐢 Brute Force Approach (Using Temporary Array)  
 ### ✅ Pseudo Code
 ```js
 FUNCTION moveZeroes_1(nums):
